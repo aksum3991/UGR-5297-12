@@ -1,0 +1,60 @@
+@import url(../css/hfh.css);
+.circle{
+    width: 8rem;
+    height: 2.5rem;
+    border: 1px solid black;
+    margin: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: rgba(61, 150, 153, 0.671);
+}
+.circle1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;    
+}
+.root{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    margin: 2rem;   
+    row-gap: 2rem;
+    column-gap: 5rem;
+    justify-content: space-evenly;   
+}
+*.maybe{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   justify-items: center;
+   border:black 1px solid;
+   width: 15rem;
+   height: 18rem;
+   border-radius:2rem ;
+   text-align: center;
+   padding: 1rem;
+   box-shadow: 0 1px 15px 0
+                rgba(0,0,0, 0.1);
+    box-sizing: content-box;
+  
+}img{
+    filter: brightness(100%);
+    box-sizing: border-box;
+    border-radius: 1rem;
+
+}
+
+
+
+
+
+
+
+
